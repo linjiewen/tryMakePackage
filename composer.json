@@ -1,0 +1,22 @@
+{
+    "name": "haotong/yii2-swoole",
+    "description": "yii2",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "haotong",
+            "email": "576006908@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flower\\Rose\\": "src/Flower/Rose",
+            "Flower\\Lily\\": "src/Flower/Lily"
+        }
+    }
+}
